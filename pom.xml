@@ -13,15 +13,12 @@
 	<version>1.0</version>
 	<packaging>war</packaging>
 	<name>ArtGroup</name>
-	<description>ARTGroup&apos;s electronic sales website project</description>
+	<description>ARTGroups electronic sales website project</description>
 	<properties>
 		<java.version>17</java.version>
 	</properties>
 	<dependencies>
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-data-jpa</artifactId>
-		</dependency>
+		
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-mail</artifactId>
