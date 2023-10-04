@@ -130,11 +130,11 @@ keyframes float { 100% {
 	<div class="message-box">
 		<c:choose>
 			<c:when test="${error=='404' }">
-				<h1>404</h1>
+				<h1>${error }</h1>
 				<p>Page not found</p>
 			</c:when>
 			<c:otherwise>
-				<h1>505</h1>
+				<h1>${error }</h1>
 				<p>Something went Wrong !</p>
 			</c:otherwise>
 		</c:choose>

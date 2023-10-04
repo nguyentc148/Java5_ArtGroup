@@ -9,7 +9,7 @@
 	</div>
 	<div class="information mt-3">
 
-		<form action="profile/update-infor" method="post">
+		<form action="/account/profile/update-infor" method="POST" enctype="">
 			<div class="row">
 				<div class="col-xs-12 col-md-8 p-2">
 					<div class="form-group row">
@@ -81,7 +81,7 @@
 							<div class="XWsmVn col-12 d-flex  justify-content-center mb-2">
 								<div class="img" id="imageContainer"></div>
 							</div>
-							<input type="file" accept=".jpg,.jpeg,.png" id="fileInput"
+							<input type="file" accept=".jpg,.jpeg,.png" name="avatar" id="fileInput"
 								style="display: none;">
 							<button type="button" class="btn btnChoose p-2 col-12 mb-2"
 								onclick="chooseImage()">Chọn ảnh</button>

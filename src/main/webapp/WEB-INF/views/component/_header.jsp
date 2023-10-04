@@ -94,19 +94,19 @@
 						<!-- Search Form -->
 						<c:if test="true">
 							<div class="sinlge-bar">
-								<a href="#" class="single-icon"><i class="fa fa-heart-o"
+								<a href="/account/wish-list" class="single-icon"><i class="fa fa-heart-o"
 									aria-hidden="true"></i></a>
 							</div>
 
 							<div class="sinlge-bar shopping">
-								<a href="#" class="single-icon"><i
+								<a href="/account/profile" class="single-icon"><i 
 									class="fa fa-user-circle-o" aria-hidden="true"></i></a>
-								<!-- Shopping Item -->
+								<!-- Shopping Item --> 
 								<div class="shopping-item p-0" style="right: 40px">
 									<ul class="list-group list-group-flush">
 										<li class="list-group-item"><a href="/account/profile">Thông tin tài
 												khoản</a></li>
-										<li class="list-group-item"><a href="#">Đơn mua</a></li>
+										<li class="list-group-item"><a href="/account/">Đơn mua</a></li>
 										<li class="list-group-item"><a href="#">Đổi mật khẩu</a></li>
 										<li class="list-group-item"><a href="#">Đăng xuất</a></li>
 									</ul>
@@ -245,7 +245,7 @@
 													<li><a href="blog-single-sidebar.html">Blog Single
 															Sidebar</a></li>
 												</ul></li>
-											<li><a href="contact.html">Contact Us</a></li>
+											<li><a href="/contact">Contact Us</a></li>
 										</ul>
 									</div>
 								</div>

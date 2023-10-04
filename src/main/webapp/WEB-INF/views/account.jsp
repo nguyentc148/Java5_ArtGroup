@@ -164,8 +164,8 @@
 						</div>
 						<div class="border-0 mb-1">
 							<a
-								class="btn-default border-0 bg-white font-weight-normal stardust-dropdown item-custom	 p-0"
-								href="#"> <i class="ti ti-eye mr-2"></i>Sản phẩm đã xem
+								class="btn-default border-0 bg-white font-weight-normal stardust-dropdown item-custom p-0"
+								href="/account/viewed-list"> <i class="ti ti-eye mr-2"></i>Sản phẩm đã xem
 							</a>
 						</div>
 					</div>
@@ -224,8 +224,8 @@
 			src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"></script>
 		<script src="../../js/address.js"></script>
 	</c:if>
-	<c:if test="${views =='wish-lish'}">
-		<script src="../../js/isotope.pkgd.js.js"></script>
+	<c:if test="${views =='wish-list'||views =='viewed-list'}">
+		<script src="../../js/isotope.pkgd.js"></script>
 		<script src="../../js/filter.js"></script>
 	</c:if>
 
